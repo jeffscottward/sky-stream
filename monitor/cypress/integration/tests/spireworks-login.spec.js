@@ -9,5 +9,7 @@ context('Login', () => {
     cy.get('#spire-user-auth-form #__BVID__13').type('jsward.17@gmail.com')
     cy.get('#spire-user-auth-form #__BVID__14').type('hhib2mci1713!!')
     cy.get('#spire-user-auth-form button').click()
+    cy.get('#installation-1-button > div > div:last-child')
+
   })
 })
